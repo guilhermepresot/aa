@@ -48,14 +48,5 @@ A equipe utilizou um quadro Kanban com as colunas **Backlog**, **Fazendo** e **F
 
 ### Sprint 3 — Integração e finalização
 
-| Backlog | Fazendo | Feito |
-|---|---|---|
-| — | — | Tela de Login |
-| — | — | Integração final de todas as telas (Larissa) |
-| — | — | Cadastro de queixas e gerenciamento de tarefas (Larissa) |
-| — | — | Listagem de enquetes e sistema votação (G. Presot) |
-| — | — | Mostrar métricas e orçamentos (G. Valadares) |
-| — | — | Listagem de tarefas e atribuição de tarefas (Pedro) |
-| — | — | Principais queixas e tarefa expandida (G. Meireles) |
+<img width="845" height="632" alt="image" src="https://github.com/user-attachments/assets/4287d1a3-45e3-44b4-bb16-a4aba7d82394" />
 
-Ao final da Sprint 3, todas as tarefas planejadas foram concluídas e o projeto encontra-se finalizado.
