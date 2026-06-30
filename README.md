@@ -19,9 +19,9 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 ### Organização da Equipe e Divisão de Papéis
 
-A equipe organizou o desenvolvimento do projeto em **3 sprints**, seguindo uma adaptação do framework Scrum. Cada sprint contou com reuniões de planejamento e revisão, realizadas entre os membros via WhatsApp e aulas presenciais.
+A equipe organizou o desenvolvimento do projeto em **3 sprints**, seguindo uma adaptação do framework Scrum. Cada sprint contou com reuniões de planejamento e revisão (início e fim de cada ciclo), realizadas de forma informal entre os membros via WhatsApp.
 
-A liderança do projeto ficou a cargo de **Larissa Cravo Carvalho Câmara Santos**, que acumulou os papéis de **Product Owner e Scrum Master**, sendo responsável por organizar as sprints, definir prioridades e acompanhar o andamento das entregas. **Guilherme Miranda Presot** atuou como apoio à liderança, auxiliando na organização e no acompanhamento das tarefas da equipe. Ambos, além da liderança, também atuaram como desenvolvedores, assim como os demais membros, cada um responsável pela implementação de uma ou mais telas do sistema.
+A organização e o acompanhamento do andamento das sprints ficaram a cargo de **Larissa Cravo Carvalho Câmara Santos** e **Guilherme Miranda Presot**, que lideraram a definição de prioridades e o acompanhamento das entregas da equipe. Além da liderança, ambos também atuaram como desenvolvedores, assim como os demais membros, cada um responsável pela implementação de uma ou mais telas do sistema.
 
 As sprints foram organizadas da seguinte forma:
 
@@ -36,3 +36,4 @@ A divisão de tarefas por funcionalidade ficou definida da seguinte forma:
 - **Guilherme Ferreira Valadares** — Apresentação de métricas e orçamentos;
 - **Pedro Henrique da Silva Fonseca** — Listagem de tarefas e atribuição de tarefas a funcionários;
 - **Guilherme Gonçalves Meireles** — Listagem de principais queixas e da tarefa expandida.
+Ainda falta o Vitor Hugo Laia Fernandes na divisão — qual foi a tela/funcionalidade dele? Sem isso, vai ficar estranho ter 6 membros listados na introdução e só 5 na divisão de tarefas.
