@@ -58,7 +58,7 @@ Esta seção apresenta as funcionalidades da solução.
 
 Permite que os usuários (aluno, funcionário e diretora) acessem o sistema informando e-mail, senha e tipo de perfil.
 
-- **Estrutura de dados:** [Usuários]
+- **Estrutura de dados:**
 - **Instruções de acesso:**
   - Acesse a página inicial do sistema
   - Informe e-mail, senha e tipo de usuário
@@ -71,7 +71,7 @@ Permite que os usuários (aluno, funcionário e diretora) acessem o sistema info
 
 Permite que o aluno registre um problema de infraestrutura encontrado na escola, incluindo título, local, descrição e uma imagem do problema.
 
-- **Estrutura de dados:** [Queixas]
+- **Estrutura de dados:**
 - **Instruções de acesso:**
   - Efetue login como aluno
   - Acesse a opção "Reportar problema"
@@ -85,7 +85,7 @@ Permite que o aluno registre um problema de infraestrutura encontrado na escola,
 
 Permite que o aluno visualize as queixas registradas por outros alunos e vote a favor ou contra a prioridade de resolução de cada uma.
 
-- **Estrutura de dados:** [Enquetes]
+- **Estrutura de dados:**
 - **Instruções de acesso:**
   - Efetue login como aluno
   - Acesse a opção "Enquetes"
@@ -98,7 +98,7 @@ Permite que o aluno visualize as queixas registradas por outros alunos e vote a 
 
 Permite que a diretora visualize todas as queixas registradas pelos alunos, acompanhe seu status e acesse o detalhamento de cada uma.
 
-- **Estrutura de dados:** [Queixas]
+- **Estrutura de dados:**
 - **Instruções de acesso:**
   - Efetue login como diretora
   - Acesse o Dashboard
@@ -111,7 +111,7 @@ Permite que a diretora visualize todas as queixas registradas pelos alunos, acom
 
 Permite que a diretora atribua uma queixa registrada a um funcionário responsável, transformando-a em uma tarefa.
 
-- **Estrutura de dados:** [Tarefas]
+- **Estrutura de dados:**
 - **Instruções de acesso:**
   - Efetue login como diretora
   - Acesse a opção "Funcionários"
@@ -124,7 +124,7 @@ Permite que a diretora atribua uma queixa registrada a um funcionário responsá
 
 Permite que o funcionário visualize as tarefas atribuídas a ele, com detalhes do problema a ser resolvido.
 
-- **Estrutura de dados:** [Tarefas]
+- **Estrutura de dados:**
 - **Instruções de acesso:**
   - Efetue login como funcionário
   - Acesse o painel do funcionário
@@ -137,7 +137,7 @@ Permite que o funcionário visualize as tarefas atribuídas a ele, com detalhes 
 
 Permite que a diretora visualize indicadores gerais (incidentes, tarefas resolvidas, gastos por setor) e cadastre o orçamento referente à resolução de uma queixa.
 
-- **Estrutura de dados:** [Orçamentos], [Métricas]
+- **Estrutura de dados:**
 - **Instruções de acesso:**
   - Efetue login como diretora
   - Acesse a opção "Métricas"
