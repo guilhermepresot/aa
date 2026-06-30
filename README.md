@@ -85,7 +85,7 @@ Permite que o aluno registre um problema de infraestrutura encontrado na escola,
 
 Permite que o aluno visualize as queixas registradas por outros alunos e vote a favor ou contra a prioridade de resolução de cada uma.
 
-- **Estrutura de dados:** [Enquetes](#estrutura-de-dados-enquetes)
+- **Estrutura de dados:** [Enquetes]
 - **Instruções de acesso:**
   - Efetue login como aluno
   - Acesse a opção "Enquetes"
@@ -98,7 +98,7 @@ Permite que o aluno visualize as queixas registradas por outros alunos e vote a 
 
 Permite que a diretora visualize todas as queixas registradas pelos alunos, acompanhe seu status e acesse o detalhamento de cada uma.
 
-- **Estrutura de dados:** [Queixas](#estrutura-de-dados-queixas)
+- **Estrutura de dados:** [Queixas]
 - **Instruções de acesso:**
   - Efetue login como diretora
   - Acesse o Dashboard
@@ -111,7 +111,7 @@ Permite que a diretora visualize todas as queixas registradas pelos alunos, acom
 
 Permite que a diretora atribua uma queixa registrada a um funcionário responsável, transformando-a em uma tarefa.
 
-- **Estrutura de dados:** [Tarefas](#estrutura-de-dados-tarefas)
+- **Estrutura de dados:** [Tarefas]
 - **Instruções de acesso:**
   - Efetue login como diretora
   - Acesse a opção "Funcionários"
@@ -124,7 +124,7 @@ Permite que a diretora atribua uma queixa registrada a um funcionário responsá
 
 Permite que o funcionário visualize as tarefas atribuídas a ele, com detalhes do problema a ser resolvido.
 
-- **Estrutura de dados:** [Tarefas](#estrutura-de-dados-tarefas)
+- **Estrutura de dados:** [Tarefas]
 - **Instruções de acesso:**
   - Efetue login como funcionário
   - Acesse o painel do funcionário
@@ -137,7 +137,7 @@ Permite que o funcionário visualize as tarefas atribuídas a ele, com detalhes 
 
 Permite que a diretora visualize indicadores gerais (incidentes, tarefas resolvidas, gastos por setor) e cadastre o orçamento referente à resolução de uma queixa.
 
-- **Estrutura de dados:** [Orçamentos](#estrutura-de-dados-orcamentos), [Métricas](#estrutura-de-dados-metricas)
+- **Estrutura de dados:** [Orçamentos], [Métricas]
 - **Instruções de acesso:**
   - Efetue login como diretora
   - Acesse a opção "Métricas"
