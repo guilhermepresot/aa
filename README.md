@@ -1,6 +1,6 @@
 | Categoria | Ferramenta | Justificativa | Link de acesso |
 |---|---|---|---|
-| Editor de código | VS Code + JSON Server | Editor de código utilizado no desenvolvimento, com o JSON Server simulando uma API REST para fornecer e armazenar os dados durante o desenvolvimento das telas || - |
+| Editor de código | VS Code + JSON Server | Editor de código utilizado no desenvolvimento, com o JSON Server simulando uma API REST para fornecer e armazenar os dados durante o desenvolvimento das telas | - | - |
 | Comunicação | WhatsApp | Ferramenta já utilizada no dia a dia pela equipe, facilitando alinhamentos rápidos e comunicação constante | - |
 | Diagramação / Design Thinking | Miro | Quadro colaborativo usado para mapear o processo de Design Thinking (Matriz CSD, Mapa de Stakeholders) | [Acessar](https://miro.com/app/board/uXjVGiKWrH4=/?share_link_id=736897638297) |
 | Prototipação | Figma | Criação de wireframes e do protótipo interativo navegável | [Acessar](https://www.figma.com/proto/KKf7LQEyghzePUoGEpu5hS/Tiaw----Structa?node-id=1-13&t=WNjbVHuP1sh4yTUj-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2) |
