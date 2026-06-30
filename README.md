@@ -145,3 +145,116 @@ Permite que a diretora visualize indicadores gerais (incidentes, tarefas resolvi
 - **Tela da funcionalidade:**
 
 ![Tela de Métricas](images/metricas.png)
+
+## Estruturas de Dados
+
+Descrição das estruturas de dados utilizadas na solução, baseadas no arquivo `db.json` consumido pelo JSON Server.
+
+##### Estrutura de Dados - Usuários
+
+Armazena os dados de login e o tipo de perfil de cada usuário do sistema (aluno, funcionário ou diretora).
+
+```json
+{
+  "id": 1,
+  "nome": "Aluno",
+  "senha": "123",
+  "email": "aluno@abc.com",
+  "tipo": "aluno"
+}
+```
+
+##### Estrutura de Dados - Queixas
+
+Armazena os problemas reportados pelos alunos, incluindo imagem, status e motivo de cancelamento (quando aplicável).
+
+```json
+{
+  "id": 1,
+  "usuarioId": 1,
+  "imagem": "data:image/avif;base64,...",
+  "titulo": "Goteira no telhado do banheiro",
+  "local": "Banheiro",
+  "descricao": "No telhado do banheiro masculino no prédio 34, há uma goteira.",
+  "status": "fechado",
+  "data_envio": "2026-04-20T11:21:00Z",
+  "motivoCancelamento": "diretora"
+}
+```
+
+##### Estrutura de Dados - Tarefas
+
+Representa uma queixa que foi atribuída a um funcionário responsável por resolvê-la.
+
+```json
+{
+  "id": 1,
+  "funcionarioId": 2,
+  "queixaId": 1,
+  "titulo": "Goteira no telhado do banheiro",
+  "local": "Banheiro",
+  "descricao": "No telhado do banheiro masculino no prédio 34, há uma goteira.",
+  "data_envio": "2026-04-20T11:21:00Z"
+}
+```
+
+##### Estrutura de Dados - Enquetes
+
+Armazena os votos dos alunos sobre a prioridade de resolução de cada queixa.
+
+```json
+{
+  "id": 1,
+  "idQueixa": 1,
+  "votos_a_favor": 14,
+  "votos_contra": 3,
+  "idUsuariosVotantes": [4, 5]
+}
+```
+
+##### Estrutura de Dados - Orçamentos
+
+Armazena os valores gastos para a resolução de cada queixa.
+
+```json
+{
+  "id": 1,
+  "queixaId": 6,
+  "valor": 1000,
+  "data": "2026-04-20T11:21:00Z"
+}
+```
+
+##### Estrutura de Dados - Métricas
+
+Armazena os indicadores agregados exibidos no painel da diretora (incidentes, pendências, gastos por setor).
+
+```json
+{
+  "incidentes": 8,
+  "pendentes": 2,
+  "resolvidos": 6,
+  "gastos": 2350,
+  "gastosPorSetor": [
+    { "nome": "Banheiros", "valor": 300 },
+    { "nome": "Cantina", "valor": 500 }
+  ]
+}
+```
+## Módulos e APIs
+
+Esta seção apresenta os módulos e APIs utilizados na solução.
+
+**Frameworks e bibliotecas:**
+
+- Bootstrap 5 — framework CSS/JS utilizado para estilização, componentes de interface (modais, navbar) e responsividade
+- Bootstrap Icons — biblioteca de ícones utilizada na interface
+- Popper.js — biblioteca utilizada pelo Bootstrap para posicionamento de elementos como modais e dropdowns
+
+**Images:**
+
+- Unsplash — utilizado para imagens de perfil ilustrativas
+
+**Backend / API:**
+
+- JSON Server — utilizado como API REST simulada para fornecer e persistir os dados da aplicação (usuários, queixas, tarefas, enquetes, orçamentos e métricas), a partir do arquivo `db.json`
