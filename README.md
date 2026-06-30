@@ -58,7 +58,18 @@ Esta seção apresenta as funcionalidades da solução.
 
 Permite que os usuários (aluno, funcionário e diretora) acessem o sistema informando e-mail, senha e tipo de perfil.
 
-- **Estrutura de dados:**
+- **Estrutura de dados:** Usuários
+
+```json
+{
+  "id": 1,
+  "nome": "Aluno",
+  "senha": "123",
+  "email": "aluno@abc.com",
+  "tipo": "aluno"
+}
+```
+
 - **Instruções de acesso:**
   - Acesse a página inicial do sistema
   - Informe e-mail, senha e tipo de usuário
@@ -71,102 +82,7 @@ Permite que os usuários (aluno, funcionário e diretora) acessem o sistema info
 
 Permite que o aluno registre um problema de infraestrutura encontrado na escola, incluindo título, local, descrição e uma imagem do problema.
 
-- **Estrutura de dados:**
-- **Instruções de acesso:**
-  - Efetue login como aluno
-  - Acesse a opção "Reportar problema"
-  - Preencha título, local, descrição e anexe uma imagem (opcional)
-  - Envie a queixa
-- **Tela da funcionalidade:**
-
-![Tela de Cadastro de Queixas](images/cadastro-queixas.png)
-
-##### Funcionalidade 3 - Enquetes e Votação (Aluno)
-
-Permite que o aluno visualize as queixas registradas por outros alunos e vote a favor ou contra a prioridade de resolução de cada uma.
-
-- **Estrutura de dados:**
-- **Instruções de acesso:**
-  - Efetue login como aluno
-  - Acesse a opção "Enquetes"
-  - Visualize as queixas em votação e registre seu voto
-- **Tela da funcionalidade:**
-
-![Tela de Enquetes](images/enquetes.png)
-
-##### Funcionalidade 4 - Gestão de Queixas (Diretora)
-
-Permite que a diretora visualize todas as queixas registradas pelos alunos, acompanhe seu status e acesse o detalhamento de cada uma.
-
-- **Estrutura de dados:**
-- **Instruções de acesso:**
-  - Efetue login como diretora
-  - Acesse o Dashboard
-  - Visualize a lista de queixas e clique em uma delas para ver os detalhes
-- **Tela da funcionalidade:**
-
-![Tela do Dashboard da Diretora](images/dashboard.png)
-
-##### Funcionalidade 5 - Atribuição de Tarefas a Funcionários (Diretora)
-
-Permite que a diretora atribua uma queixa registrada a um funcionário responsável, transformando-a em uma tarefa.
-
-- **Estrutura de dados:**
-- **Instruções de acesso:**
-  - Efetue login como diretora
-  - Acesse a opção "Funcionários"
-  - Selecione o funcionário e confirme a atribuição da tarefa
-- **Tela da funcionalidade:**
-
-![Tela de Atribuição de Funcionários](images/atribuir-funcionarios.png)
-
-##### Funcionalidade 6 - Listagem e Acompanhamento de Tarefas (Funcionário)
-
-Permite que o funcionário visualize as tarefas atribuídas a ele, com detalhes do problema a ser resolvido.
-
-- **Estrutura de dados:**
-- **Instruções de acesso:**
-  - Efetue login como funcionário
-  - Acesse o painel do funcionário
-  - Visualize a listagem de tarefas e clique em uma tarefa para ver os detalhes
-- **Tela da funcionalidade:**
-
-![Tela de Listagem de Tarefas](images/listagem-tarefas.png)
-
-##### Funcionalidade 7 - Visualização de Métricas e Orçamentos (Diretora)
-
-Permite que a diretora visualize indicadores gerais (incidentes, tarefas resolvidas, gastos por setor) e cadastre o orçamento referente à resolução de uma queixa.
-
-- **Estrutura de dados:**
-- **Instruções de acesso:**
-  - Efetue login como diretora
-  - Acesse a opção "Métricas"
-  - Visualize os indicadores ou cadastre um novo gasto referente a uma queixa
-- **Tela da funcionalidade:**
-
-![Tela de Métricas](images/metricas.png)
-
-## Estruturas de Dados
-
-Descrição das estruturas de dados utilizadas na solução, baseadas no arquivo `db.json` consumido pelo JSON Server.
-
-##### Estrutura de Dados - Usuários
-
-Armazena os dados de login e o tipo de perfil de cada usuário do sistema (aluno, funcionário ou diretora).
-
-```json
-{
-  "id": 1,
-  "nome": "Aluno",
-  "senha": "123",
-  "email": "aluno@abc.com",
-  "tipo": "aluno"
-}
-```
-
-##### Estrutura de Dados - Queixas
-
-Armazena os problemas reportados pelos alunos, incluindo imagem, status e motivo de cancelamento (quando aplicável).
+- **Estrutura de dados:** Queixas
 
 ```json
 {
@@ -182,9 +98,72 @@ Armazena os problemas reportados pelos alunos, incluindo imagem, status e motivo
 }
 ```
 
-##### Estrutura de Dados - Tarefas
+- **Instruções de acesso:**
+  - Efetue login como aluno
+  - Acesse a opção "Reportar problema"
+  - Preencha título, local, descrição e anexe uma imagem (opcional)
+  - Envie a queixa
+- **Tela da funcionalidade:**
 
-Representa uma queixa que foi atribuída a um funcionário responsável por resolvê-la.
+![Tela de Cadastro de Queixas](images/cadastro-queixas.png)
+
+##### Funcionalidade 3 - Enquetes e Votação (Aluno)
+
+Permite que o aluno visualize as queixas registradas por outros alunos e vote a favor ou contra a prioridade de resolução de cada uma.
+
+- **Estrutura de dados:** Enquetes
+
+```json
+{
+  "id": 1,
+  "idQueixa": 1,
+  "votos_a_favor": 14,
+  "votos_contra": 3,
+  "idUsuariosVotantes": [4, 5]
+}
+```
+
+- **Instruções de acesso:**
+  - Efetue login como aluno
+  - Acesse a opção "Enquetes"
+  - Visualize as queixas em votação e registre seu voto
+- **Tela da funcionalidade:**
+
+![Tela de Enquetes](images/enquetes.png)
+
+##### Funcionalidade 4 - Gestão de Queixas (Diretora)
+
+Permite que a diretora visualize todas as queixas registradas pelos alunos, acompanhe seu status e acesse o detalhamento de cada uma.
+
+- **Estrutura de dados:** Queixas
+
+```json
+{
+  "id": 1,
+  "usuarioId": 1,
+  "imagem": "data:image/avif;base64,...",
+  "titulo": "Goteira no telhado do banheiro",
+  "local": "Banheiro",
+  "descricao": "No telhado do banheiro masculino no prédio 34, há uma goteira.",
+  "status": "fechado",
+  "data_envio": "2026-04-20T11:21:00Z",
+  "motivoCancelamento": "diretora"
+}
+```
+
+- **Instruções de acesso:**
+  - Efetue login como diretora
+  - Acesse o Dashboard
+  - Visualize a lista de queixas e clique em uma delas para ver os detalhes
+- **Tela da funcionalidade:**
+
+![Tela do Dashboard da Diretora](images/dashboard.png)
+
+##### Funcionalidade 5 - Atribuição de Tarefas a Funcionários (Diretora)
+
+Permite que a diretora atribua uma queixa registrada a um funcionário responsável, transformando-a em uma tarefa.
+
+- **Estrutura de dados:** Tarefas
 
 ```json
 {
@@ -198,23 +177,45 @@ Representa uma queixa que foi atribuída a um funcionário responsável por reso
 }
 ```
 
-##### Estrutura de Dados - Enquetes
+- **Instruções de acesso:**
+  - Efetue login como diretora
+  - Acesse a opção "Funcionários"
+  - Selecione o funcionário e confirme a atribuição da tarefa
+- **Tela da funcionalidade:**
 
-Armazena os votos dos alunos sobre a prioridade de resolução de cada queixa.
+![Tela de Atribuição de Funcionários](images/atribuir-funcionarios.png)
+
+##### Funcionalidade 6 - Listagem e Acompanhamento de Tarefas (Funcionário)
+
+Permite que o funcionário visualize as tarefas atribuídas a ele, com detalhes do problema a ser resolvido.
+
+- **Estrutura de dados:** Tarefas
 
 ```json
 {
   "id": 1,
-  "idQueixa": 1,
-  "votos_a_favor": 14,
-  "votos_contra": 3,
-  "idUsuariosVotantes": [4, 5]
+  "funcionarioId": 2,
+  "queixaId": 1,
+  "titulo": "Goteira no telhado do banheiro",
+  "local": "Banheiro",
+  "descricao": "No telhado do banheiro masculino no prédio 34, há uma goteira.",
+  "data_envio": "2026-04-20T11:21:00Z"
 }
 ```
 
-##### Estrutura de Dados - Orçamentos
+- **Instruções de acesso:**
+  - Efetue login como funcionário
+  - Acesse o painel do funcionário
+  - Visualize a listagem de tarefas e clique em uma tarefa para ver os detalhes
+- **Tela da funcionalidade:**
 
-Armazena os valores gastos para a resolução de cada queixa.
+![Tela de Listagem de Tarefas](images/listagem-tarefas.png)
+
+##### Funcionalidade 7 - Visualização de Métricas e Orçamentos (Diretora)
+
+Permite que a diretora visualize indicadores gerais (incidentes, tarefas resolvidas, gastos por setor) e cadastre o orçamento referente à resolução de uma queixa.
+
+- **Estrutura de dados:** Orçamentos, Métricas
 
 ```json
 {
@@ -224,10 +225,6 @@ Armazena os valores gastos para a resolução de cada queixa.
   "data": "2026-04-20T11:21:00Z"
 }
 ```
-
-##### Estrutura de Dados - Métricas
-
-Armazena os indicadores agregados exibidos no painel da diretora (incidentes, pendências, gastos por setor).
 
 ```json
 {
@@ -241,20 +238,11 @@ Armazena os indicadores agregados exibidos no painel da diretora (incidentes, pe
   ]
 }
 ```
-## Módulos e APIs
 
-Esta seção apresenta os módulos e APIs utilizados na solução.
+- **Instruções de acesso:**
+  - Efetue login como diretora
+  - Acesse a opção "Métricas"
+  - Visualize os indicadores ou cadastre um novo gasto referente a uma queixa
+- **Tela da funcionalidade:**
 
-**Frameworks e bibliotecas:**
-
-- Bootstrap 5 — framework CSS/JS utilizado para estilização, componentes de interface (modais, navbar) e responsividade
-- Bootstrap Icons — biblioteca de ícones utilizada na interface
-- Popper.js — biblioteca utilizada pelo Bootstrap para posicionamento de elementos como modais e dropdowns
-
-**Images:**
-
-- Unsplash — utilizado para imagens de perfil ilustrativas
-
-**Backend / API:**
-
-- JSON Server — utilizado como API REST simulada para fornecer e persistir os dados da aplicação (usuários, queixas, tarefas, enquetes, orçamentos e métricas), a partir do arquivo `db.json`
+![Tela de Métricas](images/metricas.png)
