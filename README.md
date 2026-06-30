@@ -17,11 +17,19 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 ## Gerenciamento do Projeto
 
-A equipe optou por uma organização de trabalho simplificada, inspirada em práticas ágeis, porém sem a aplicação formal do framework Scrum — não houve divisão em sprints, cerimônias como Daily Scrum, Sprint Review ou Sprint Retrospective, nem papéis formais como Product Owner e Scrum Master. Essa escolha se deu pelo tamanho reduzido da equipe e pelo escopo do projeto, que permitiram uma comunicação direta e constante entre os membros via WhatsApp, dispensando uma estrutura de gestão mais formal.
+### Organização da Equipe e Divisão de Papéis
 
-A divisão de trabalho foi feita **por funcionalidade**: cada integrante ficou responsável pelo desenvolvimento completo de uma ou mais telas/módulos do sistema, do início ao fim, com integração dos componentes ao final do desenvolvimento. Essa abordagem permitiu que cada membro trabalhasse de forma independente e focada em sua parte, otimizando o tempo da equipe.
+A equipe organizou o desenvolvimento do projeto em **3 sprints**, seguindo uma adaptação do framework Scrum. Cada sprint contou com reuniões de planejamento e revisão, realizadas entre os membros via WhatsApp e aulas presenciais.
 
-A divisão de tarefas ficou definida da seguinte forma:
+A liderança do projeto ficou a cargo de **Larissa Cravo Carvalho Câmara Santos**, que acumulou os papéis de **Product Owner e Scrum Master**, sendo responsável por organizar as sprints, definir prioridades e acompanhar o andamento das entregas. **Guilherme Miranda Presot** atuou como apoio à liderança, auxiliando na organização e no acompanhamento das tarefas da equipe. Ambos, além da liderança, também atuaram como desenvolvedores, assim como os demais membros, cada um responsável pela implementação de uma ou mais telas do sistema.
+
+As sprints foram organizadas da seguinte forma:
+
+- **Sprint 1** — Implementação das telas iniciais do sistema;
+- **Sprint 2** — Continuidade da implementação das telas restantes;
+- **Sprint 3** — Integração de todas as telas desenvolvidas e implementação da tela de login.
+
+A divisão de tarefas por funcionalidade ficou definida da seguinte forma:
 
 - **Larissa Cravo Carvalho Câmara Santos** — Cadastro de queixas e gerenciamento;
 - **Guilherme Miranda Presot** — Listagem de enquetes do aluno e sistema de votação;
