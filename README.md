@@ -1,3 +1,7 @@
+## Ferramentas
+
+Relação de ferramentas empregadas pelo grupo durante o projeto, categorizadas por finalidade:
+
 | Categoria | Ferramenta | Justificativa | Link de acesso |
 |---|---|---|---|
 | Editor de código | VS Code + JSON Server | Editor de código utilizado no desenvolvimento, com o JSON Server simulando uma API REST para fornecer e armazenar os dados durante o desenvolvimento das telas | - |
