@@ -36,3 +36,31 @@ A divisão de tarefas por funcionalidade ficou definida da seguinte forma:
 - **Guilherme Ferreira Valadares** — Apresentação de métricas e orçamentos;
 - **Pedro Henrique da Silva Fonseca** — Listagem de tarefas e atribuição de tarefas a funcionários;
 - **Guilherme Gonçalves Meireles** — Listagem de principais queixas e da tarefa expandida.
+
+## Quadro de Controle de Tarefas (Kanban)
+
+A equipe utilizou um quadro Kanban com as colunas **Backlog**, **Fazendo** e **Feito** para o controle das tarefas ao longo das 3 sprints do projeto.
+
+### Sprint 1 e 2 — Implementação das telas
+
+| Backlog | Fazendo | Feito |
+|---|---|---|
+| Tela de Login | — | Cadastro de queixas (Larissa) |
+| Integração final das telas | — | Listagem de enquetes e votação (G. Presot) |
+| — | — | Métricas e orçamentos (G. Valadares) |
+| — | — | Listagem de tarefas e atribuição (Pedro) |
+| — | — | Principais queixas e tarefa expandida (G. Meireles) |
+
+### Sprint 3 — Integração e finalização
+
+| Backlog | Fazendo | Feito |
+|---|---|---|
+| — | — | Tela de Login |
+| — | — | Integração final de todas as telas |
+| — | — | Cadastro de queixas (Larissa) |
+| — | — | Listagem de enquetes e votação (G. Presot) |
+| — | — | Métricas e orçamentos (G. Valadares) |
+| — | — | Listagem de tarefas e atribuição (Pedro) |
+| — | — | Principais queixas e tarefa expandida (G. Meireles) |
+
+Ao final da Sprint 3, todas as tarefas planejadas foram concluídas e o projeto encontra-se finalizado.
