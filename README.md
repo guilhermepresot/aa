@@ -50,3 +50,98 @@ A equipe utilizou um quadro Kanban com as colunas **Backlog**, **Fazendo** e **F
 
 <img width="845" height="632" alt="image" src="https://github.com/user-attachments/assets/4287d1a3-45e3-44b4-bb16-a4aba7d82394" />
 
+## Funcionalidades
+
+Esta seção apresenta as funcionalidades da solução.
+
+##### Funcionalidade 1 - Login
+
+Permite que os usuários (aluno, funcionário e diretora) acessem o sistema informando e-mail, senha e tipo de perfil.
+
+- **Estrutura de dados:** [Usuários](#estrutura-de-dados-usuarios)
+- **Instruções de acesso:**
+  - Acesse a página inicial do sistema
+  - Informe e-mail, senha e tipo de usuário
+  - Ao confirmar, o sistema redireciona automaticamente para a tela inicial correspondente ao perfil (aluno, funcionário ou diretora)
+- **Tela da funcionalidade:**
+
+![Tela de Login](images/login.png)
+
+##### Funcionalidade 2 - Cadastro de Queixas (Aluno)
+
+Permite que o aluno registre um problema de infraestrutura encontrado na escola, incluindo título, local, descrição e uma imagem do problema.
+
+- **Estrutura de dados:** [Queixas](#estrutura-de-dados-queixas)
+- **Instruções de acesso:**
+  - Efetue login como aluno
+  - Acesse a opção "Reportar problema"
+  - Preencha título, local, descrição e anexe uma imagem (opcional)
+  - Envie a queixa
+- **Tela da funcionalidade:**
+
+![Tela de Cadastro de Queixas](images/cadastro-queixas.png)
+
+##### Funcionalidade 3 - Enquetes e Votação (Aluno)
+
+Permite que o aluno visualize as queixas registradas por outros alunos e vote a favor ou contra a prioridade de resolução de cada uma.
+
+- **Estrutura de dados:** [Enquetes](#estrutura-de-dados-enquetes)
+- **Instruções de acesso:**
+  - Efetue login como aluno
+  - Acesse a opção "Enquetes"
+  - Visualize as queixas em votação e registre seu voto
+- **Tela da funcionalidade:**
+
+![Tela de Enquetes](images/enquetes.png)
+
+##### Funcionalidade 4 - Gestão de Queixas (Diretora)
+
+Permite que a diretora visualize todas as queixas registradas pelos alunos, acompanhe seu status e acesse o detalhamento de cada uma.
+
+- **Estrutura de dados:** [Queixas](#estrutura-de-dados-queixas)
+- **Instruções de acesso:**
+  - Efetue login como diretora
+  - Acesse o Dashboard
+  - Visualize a lista de queixas e clique em uma delas para ver os detalhes
+- **Tela da funcionalidade:**
+
+![Tela do Dashboard da Diretora](images/dashboard.png)
+
+##### Funcionalidade 5 - Atribuição de Tarefas a Funcionários (Diretora)
+
+Permite que a diretora atribua uma queixa registrada a um funcionário responsável, transformando-a em uma tarefa.
+
+- **Estrutura de dados:** [Tarefas](#estrutura-de-dados-tarefas)
+- **Instruções de acesso:**
+  - Efetue login como diretora
+  - Acesse a opção "Funcionários"
+  - Selecione o funcionário e confirme a atribuição da tarefa
+- **Tela da funcionalidade:**
+
+![Tela de Atribuição de Funcionários](images/atribuir-funcionarios.png)
+
+##### Funcionalidade 6 - Listagem e Acompanhamento de Tarefas (Funcionário)
+
+Permite que o funcionário visualize as tarefas atribuídas a ele, com detalhes do problema a ser resolvido.
+
+- **Estrutura de dados:** [Tarefas](#estrutura-de-dados-tarefas)
+- **Instruções de acesso:**
+  - Efetue login como funcionário
+  - Acesse o painel do funcionário
+  - Visualize a listagem de tarefas e clique em uma tarefa para ver os detalhes
+- **Tela da funcionalidade:**
+
+![Tela de Listagem de Tarefas](images/listagem-tarefas.png)
+
+##### Funcionalidade 7 - Visualização de Métricas e Orçamentos (Diretora)
+
+Permite que a diretora visualize indicadores gerais (incidentes, tarefas resolvidas, gastos por setor) e cadastre o orçamento referente à resolução de uma queixa.
+
+- **Estrutura de dados:** [Orçamentos](#estrutura-de-dados-orcamentos), [Métricas](#estrutura-de-dados-metricas)
+- **Instruções de acesso:**
+  - Efetue login como diretora
+  - Acesse a opção "Métricas"
+  - Visualize os indicadores ou cadastre um novo gasto referente a uma queixa
+- **Tela da funcionalidade:**
+
+![Tela de Métricas](images/metricas.png)
