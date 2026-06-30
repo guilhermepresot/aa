@@ -56,7 +56,7 @@ A equipe utilizou um quadro Kanban com as colunas **Backlog**, **Fazendo** e **F
 | Backlog | Fazendo | Feito |
 |---|---|---|
 | — | — | Tela de Login |
-| — | — | Integração final de todas as telas |
+| — | — | Integração final de todas as telas (Larissa) |
 | — | — | Cadastro de queixas (Larissa) |
 | — | — | Listagem de enquetes e votação (G. Presot) |
 | — | — | Métricas e orçamentos (G. Valadares) |
