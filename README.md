@@ -45,10 +45,10 @@ A equipe utilizou um quadro Kanban com as colunas **Backlog**, **Fazendo** e **F
 
 | Backlog | Fazendo | Feito |
 |---|---|---|
-| Tela de Login | — | Cadastro de queixas (Larissa) |
-| Integração final das telas | — | Listagem de enquetes e votação (G. Presot) |
-| — | — | Métricas e orçamentos (G. Valadares) |
-| — | — | Listagem de tarefas e atribuição (Pedro) |
+| Tela de Login | — | Cadastro de queixas e gerenciamento de tarefas (Larissa) |
+| Integração final das telas | — | Listagem de enquetes e sistema votação (G. Presot) |
+| — | — | Mostrar métricas e orçamentos (G. Valadares) |
+| — | — | Listagem de tarefas e atribuição de tarefas (Pedro) |
 | — | — | Principais queixas e tarefa expandida (G. Meireles) |
 
 ### Sprint 3 — Integração e finalização
