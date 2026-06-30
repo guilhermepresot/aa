@@ -58,7 +58,7 @@ Esta seção apresenta as funcionalidades da solução.
 
 Permite que os usuários (aluno, funcionário e diretora) acessem o sistema informando e-mail, senha e tipo de perfil.
 
-- **Estrutura de dados:** [Usuários](#estrutura-de-dados-usuarios)
+- **Estrutura de dados:** [Usuários]
 - **Instruções de acesso:**
   - Acesse a página inicial do sistema
   - Informe e-mail, senha e tipo de usuário
@@ -71,7 +71,7 @@ Permite que os usuários (aluno, funcionário e diretora) acessem o sistema info
 
 Permite que o aluno registre um problema de infraestrutura encontrado na escola, incluindo título, local, descrição e uma imagem do problema.
 
-- **Estrutura de dados:** [Queixas](#estrutura-de-dados-queixas)
+- **Estrutura de dados:** [Queixas]
 - **Instruções de acesso:**
   - Efetue login como aluno
   - Acesse a opção "Reportar problema"
