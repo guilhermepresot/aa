@@ -36,4 +36,3 @@ A divisão de tarefas por funcionalidade ficou definida da seguinte forma:
 - **Guilherme Ferreira Valadares** — Apresentação de métricas e orçamentos;
 - **Pedro Henrique da Silva Fonseca** — Listagem de tarefas e atribuição de tarefas a funcionários;
 - **Guilherme Gonçalves Meireles** — Listagem de principais queixas e da tarefa expandida.
-Ainda falta o Vitor Hugo Laia Fernandes na divisão — qual foi a tela/funcionalidade dele? Sem isso, vai ficar estranho ter 6 membros listados na introdução e só 5 na divisão de tarefas.
