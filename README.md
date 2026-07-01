@@ -76,8 +76,7 @@ Permite que os usuários (aluno, funcionário e diretora) acessem o sistema info
   - Ao confirmar, o sistema redireciona automaticamente para a tela inicial correspondente ao perfil (aluno, funcionário ou diretora)
 - **Tela da funcionalidade:**
 
-![Tela de Login](<img width="1535" height="778" alt="image" src="https://github.com/user-attachments/assets/0e787310-3cae-49b6-826a-095a18925d2c" />
-)
+![Tela de Login](<img width="1535" height="778" alt="image" src="https://github.com/user-attachments/assets/b2675ba0-dc9a-4f40-b1d5-13269b16858d" />)
 
 ##### Funcionalidade 2 - Cadastro de Queixas (Aluno)
 
