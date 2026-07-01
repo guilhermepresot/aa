@@ -342,8 +342,7 @@ Armazena os indicadores agregados exibidos no painel da diretora (incidentes, pe
   ]
 }
 ```
-Aqui está a seção de Módulos e APIs:
-markdown## Módulos e APIs
+## Módulos e APIs
 
 Esta seção apresenta os módulos e APIs utilizados na solução.
 
@@ -360,4 +359,4 @@ Esta seção apresenta os módulos e APIs utilizados na solução.
 
 **Backend / API:**
 
-- JSON Server — utilizado como API REST simulada para fornecer e persistir os dados da apl
+- JSON Server — utilizado como API REST simulada para fornecer e persistir os dados da aplicação (usuários, queixas, tarefas, enquetes, orçamentos e métricas), a partir do arquivo `db.json`. Expõe endpoints como `/usuarios`, `/queixas`, `/tarefas`, `/enquetes`, `/orcamentos` e `/metricas`, suportando operações de GET, POST, PUT, PATCH e DELETE
