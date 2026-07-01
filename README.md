@@ -230,7 +230,27 @@ Permite que o funcionário visualize as tarefas atribuídas a ele, com detalhes 
 Permite que a diretora visualize indicadores gerais (incidentes, tarefas resolvidas, gastos por setor) e cadastre o orçamento referente à resolução de uma queixa.
 
 - **Estrutura de dados:** Orçamentos, Métricas
+```json
+{
+  "id": 1,
+  "queixaId": 6,
+  "valor": 1000,
+  "data": "2026-04-20T11:21:00Z"
+}
+```
 
+```json
+{
+  "incidentes": 8,
+  "pendentes": 2,
+  "resolvidos": 6,
+  "gastos": 2350,
+  "gastosPorSetor": [
+    { "nome": "Banheiros", "valor": 300 },
+    { "nome": "Cantina", "valor": 500 }
+  ]
+}
+```
 
 
 
