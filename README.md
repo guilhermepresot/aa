@@ -158,10 +158,11 @@ Permite que a diretora visualize todas as queixas registradas pelos alunos, acom
 - **Instruções de acesso:**
   - Efetue login como diretora
   - Acesse o Dashboard
-  - Visualize o controle de tarefas resolvidas e não resolvidas, gasto mensal e locais mais reportados
+  - Clique em "Queixas Reportadas"
+  - Visualize as queixas criadas
 - **Tela da funcionalidade:**
 
-<img width="1513" height="780" alt="image" src="https://github.com/user-attachments/assets/597d1ae0-585a-488d-9e29-10a7ec7e083c" />
+<img width="1521" height="781" alt="image" src="https://github.com/user-attachments/assets/4da2c643-66d1-469e-840f-2db3cfc8feeb" />
 
 ##### Funcionalidade 5 - Atribuição de Tarefas a Funcionários (Diretora)
 
@@ -230,33 +231,8 @@ Permite que a diretora visualize indicadores gerais (incidentes, tarefas resolvi
 
 - **Estrutura de dados:** Orçamentos, Métricas
 
-```json
-{
-  "id": 1,
-  "queixaId": 6,
-  "valor": 1000,
-  "data": "2026-04-20T11:21:00Z"
-}
-```
 
-```json
-{
-  "incidentes": 8,
-  "pendentes": 2,
-  "resolvidos": 6,
-  "gastos": 2350,
-  "gastosPorSetor": [
-    { "nome": "Banheiros", "valor": 300 },
-    { "nome": "Cantina", "valor": 500 }
-  ]
-}
-```
 
-- **Instruções de acesso:**
-  - Efetue login como diretora
-  - Acesse a opção "Métricas"
-  - Visualize os indicadores ou cadastre um novo gasto referente a uma queixa
-- **Tela da funcionalidade:**
 
 <img width="1520" height="777" alt="image" src="https://github.com/user-attachments/assets/82b61ae9-6374-4e99-9447-f90c94ee5023" />
 
