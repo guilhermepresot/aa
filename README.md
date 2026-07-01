@@ -1,3 +1,133 @@
+# Introdução
+
+Informações básicas do projeto.
+
+* **Projeto:** Structa
+* **Repositório GitHub:** [Repositório](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2026-1-ti1-0427100-g5-manutencao-do-predio-escolar/tree/master)
+* **Membros da equipe:**
+
+  * [Larissa Cravo Carvalho Câmara Santos](https://github.com/L4r1ss4Cr4v0) 
+  * [Guilherme Miranda Presot](https://github.com/guilhermepresot) 
+  * [Guilherme Gonçalves Meireles](https://github.com/GuiMeirelesK) 
+  * [Guilherme Ferreira Valadares](https://github.com/guilhermevaladares7) 
+  * [Pedro Henrique da Silva Fonseca](https://github.com/pedrohenriquesf0701) 
+
+A documentação do projeto é estruturada da seguinte forma:
+
+1. Introdução
+2. Contexto
+3. Product Discovery
+4. Product Design 
+5. Metodologia
+6. Solução
+7. Referências Bibliográficas
+
+✅ [Documentação de Design Thinking (MIRO)](files/G5.pdf)
+
+# Contexto
+
+Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
+
+## Problema
+
+No ambiente escolar, é comum a ocorrência de problemas estruturais e organizacionais, como equipamentos danificados e necessidade de manutenção em salas e áreas mais utilizadas. No entanto, esses problemas muitas vezes não são comunicados de forma eficiente à gestão, ocorrendo por meio de interações informais, descentralizadas ou até mesmo inexistentes, o que dificulta sua identificação e resolução.
+Esse cenário está presente em instituições de ensino que não possuem um processo estruturado para registro e acompanhamento dessas demandas. Como consequência, a direção enfrenta dificuldades para organizar os problemas, enquanto alunos e funcionários convivem com situações que impactam diretamente o funcionamento do ambiente escolar e a qualidade das atividades realizadas no dia a dia.
+
+
+## Objetivos
+
+O objetivo geral deste trabalho é desenvolver um software capaz de solucionar os problemas de comunicação e organização de demandas no ambiente escolar, proporcionando uma forma mais estruturada de registro e acompanhamento das necessidades existentes.
+Como objetivos específicos, destacam-se: permitir que os alunos registrem problemas e participem das demandas por meio de votação. Possibilitar que a gestão escolar e os funcionários responsáveis pela limpeza acompanhem e gerenciem as solicitações de forma eficiente. Para promover maior organização e transparência no processo de identificação e resolução dos problemas no ambiente escolar.
+
+
+## Justificativa
+
+A escolha deste projeto se justifica pela necessidade de melhorar a organização e a comunicação no ambiente escolar, especialmente no que se refere à identificação e resolução de problemas cotidianos. A ausência de um processo estruturado para o registro dessas demandas pode gerar desorganização, retrabalho e demora na solução, impactando diretamente a qualidade do ambiente para alunos e funcionários.
+Além disso, a definição dos objetivos específicos está relacionada à busca por maior eficiência e transparência nesse processo, permitindo compreender melhor as necessidades dos usuários. A equipe baseou-se em discussões internas para identificar os principais pontos de dificuldade, o que orientou a escolha de aprofundar aspectos como organização das informações, acompanhamento das solicitações e participação dos alunos na votação dos problemas.
+
+
+## Público-Alvo
+
+A solução é voltada para o ambiente educacional, especialmente instituições de ensino que enfrentam dificuldades na organização e comunicação de demandas internas. O público-alvo é composto principalmente por alunos, direção escolar e funcionários responsáveis pela manutenção e limpeza.
+Os alunos representam a maior parte dos usuários e, em geral, possuem familiaridade com tecnologia e dispositivos digitais, sendo capazes de interagir facilmente com sistemas simples e intuitivos. Eles são responsáveis por registrar problemas e participar da priorização das demandas por meio de votação.
+A direção escolar, representada pela diretora, possui um papel administrativo, sendo responsável por acompanhar as solicitações e tomar decisões com base nas demandas registradas. Já os funcionários, como a equipe de limpeza (por exemplo, a faxineira), possuem um papel operacional, sendo responsáveis por executar as tarefas necessárias e acompanhar as demandas relacionadas ao seu trabalho. Esse grupo pode apresentar menor familiaridade com tecnologias, o que exige que o sistema seja simples, intuitivo e de fácil utilização.
+A relação entre esses grupos é hierárquica e complementar: os alunos identificam e sinalizam os problemas, enquanto a gestão organiza e direciona as soluções, que são executadas pelos funcionários. Dessa forma, o sistema atende diferentes perfis de usuários, considerando suas necessidades, níveis de acesso e responsabilidades dentro do ambiente escolar.
+
+
+# Product Discovery
+
+## Etapa de Entendimento
+
+![Matriz CSD](images/Matriz-CSD.png)
+
+![Mapa Stakeholder](images/MapaStakekholder.png)
+
+![Entrevista Qualitativa](images/Entrevista-Qualitativa.png)
+
+![Matriz CSD](images/Highlight-pesquisa.png)
+
+![Matriz CSD](images/persona1.png)
+![Matriz CSD](images/persona2.png)
+![Matriz CSD](images/persona3.png)
+
+## Etapa de Definição
+
+
+# Product Design
+
+## Histórias de Usuários
+
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
+
+
+
+| EU COMO           | QUERO/PRECISO                                                                     | PARA                                                                                                       |
+| ----------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+|                   |                                                                                   |                                                                                                            |
+| Faxineira         | Um aplicativo simplificado com interface visual de ícones e fotos para reporte    | Reportar problemas de infraestrutura, como vazamentos e lâmpadas queimadas, sem precisar de                |
+|                   | imediato de problemas                                                             | intermediários. Garantindo que eu seja ouvida.                                                             |
+|                   |                                                                                   |                                                                                                            |
+| Diretora          | Um dashboard administrativo que centralize as queixas, com gráfico e um lugar em | Ter visibilidade e controle das demandas de manutenção para garantir a segurança da escola.                |
+|                   | que posso ver os problemas resolvidos.                                            |                                                                                                            |
+|                   |                                                                                   |                                                                                                            |
+| Aluno             | Um sistema de ticket com gamificação e possibilidade de votar em causas de outros | Ter um canal acessível para reportar problemas, como ventiladores estragados, falta de materiais e outros. |
+|                   | alunos                                                                            |                                                                                                            |
+|                   |                                                                                   |                                                                                                            |
+| Faxineira         | Visualizar rapidamente quais problemas já foram reportados no meu setor           | Evitar retrabalho e organizar melhor minha rotina de limpeza                                               |
+|                   |                                                                                   |                                                                                                            |
+| Diretora          | Receber notificações em tempo real sobre problemas urgentes                       | Tomar decisões rápidas e garantir a segurança da escola                                                    |
+|                   |                                                                                   |                                                                                                            |
+| Aluno             | Acompanhar o status das minhas solicitações                                       | Saber se o problema que reportei já foi resolvido                                                          |
+|                   |                                                                                   |                                                                                                            |
+
+
+## Proposta de Valor
+
+
+![Exemplo de proposta de valor](images/diretora.png)
+![Exemplo de proposta de valor](images/faxineira.png)
+![Exemplo de proposta de valor](images/aluno.png)
+
+## Projeto de Interface
+
+### Wireframes
+
+![Login](images/login2.png)
+![Tela Diretora](images/diretora2.png)
+![Tela Faxineira](images/faxineira2.png)
+![Tela Aluno](images/aluno2.png)
+
+
+
+### User Flow
+
+![User Flow](images/userflow.png)
+
+### Protótipo Interativo
+
+
+[Protótipo Interativo (Figma)](https://www.figma.com/proto/KKf7LQEyghzePUoGEpu5hS/Tiaw----Structa?node-id=1-13&t=WNjbVHuP1sh4yTUj-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2) 
+
 # Metodologia
 
 Detalhes sobre a organização do grupo e o ferramental empregado.
@@ -36,6 +166,22 @@ A divisão de tarefas por funcionalidade ficou definida da seguinte forma:
 - **Guilherme Ferreira Valadares** — Apresentação de métricas e orçamentos;
 - **Pedro Henrique da Silva Fonseca** — Listagem de tarefas e atribuição de tarefas a funcionários;
 - **Guilherme Gonçalves Meireles** — Listagem de principais queixas e da tarefa expandida.
+
+# Solução Implementada
+
+Esta seção apresenta todos os detalhes da solução criada no projeto.
+
+## Vídeo do Projeto
+
+O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução. ⚠️ EXEMPLO ⚠️
+
+[![Vídeo do projeto](images/video.png)](https://www.youtube.com/embed/70gGoFyGeqQ)
+
+> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>
+> O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.
+>
+> Inclua um link para o vídeo do projeto.
 
 ## Quadro de Controle de Tarefas (Kanban)
 
