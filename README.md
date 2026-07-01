@@ -105,7 +105,8 @@ Permite que o aluno registre um problema de infraestrutura encontrado na escola,
   - Envie a queixa
 - **Tela da funcionalidade:**
 
-![Tela de Cadastro de Queixas](images/cadastro-queixas.png)
+<img width="1516" height="781" alt="image" src="https://github.com/user-attachments/assets/3b01fe16-1fc6-4e6b-828b-7e19564d7dff" />
+
 
 ##### Funcionalidade 3 - Enquetes e Votação (Aluno)
 
@@ -125,11 +126,14 @@ Permite que o aluno visualize as queixas registradas por outros alunos e vote a 
 
 - **Instruções de acesso:**
   - Efetue login como aluno
-  - Acesse a opção "Enquetes"
   - Visualize as queixas em votação e registre seu voto
+  - Acesse a opção "Suas Enquetes"
+  - Visualize as enquetes que você reportou
 - **Tela da funcionalidade:**
 
-![Tela de Enquetes](images/enquetes.png)
+<img width="1517" height="780" alt="image" src="https://github.com/user-attachments/assets/1380a72c-71f4-477a-b562-9cd1fb1e8daa" />
+
+<img width="1534" height="780" alt="image" src="https://github.com/user-attachments/assets/573c7bfd-3779-4551-9fcf-6fef4f786441" />
 
 ##### Funcionalidade 4 - Gestão de Queixas (Diretora)
 
@@ -157,7 +161,7 @@ Permite que a diretora visualize todas as queixas registradas pelos alunos, acom
   - Visualize a lista de queixas e clique em uma delas para ver os detalhes
 - **Tela da funcionalidade:**
 
-![Tela do Dashboard da Diretora](images/dashboard.png)
+<img width="1513" height="780" alt="image" src="https://github.com/user-attachments/assets/597d1ae0-585a-488d-9e29-10a7ec7e083c" />
 
 ##### Funcionalidade 5 - Atribuição de Tarefas a Funcionários (Diretora)
 
@@ -179,11 +183,18 @@ Permite que a diretora atribua uma queixa registrada a um funcionário responsá
 
 - **Instruções de acesso:**
   - Efetue login como diretora
-  - Acesse a opção "Funcionários"
+  - Acesse a opção "Queixas Reportadas"
+  - Acesse acesse "Detalhes completos"
+  - Clique em "Delegar tarefa a funcionário"
   - Selecione o funcionário e confirme a atribuição da tarefa
 - **Tela da funcionalidade:**
 
-![Tela de Atribuição de Funcionários](images/atribuir-funcionarios.png)
+<img width="1519" height="780" alt="image" src="https://github.com/user-attachments/assets/91af78cd-70d6-49d8-8ccf-26e65df86fc7" />
+
+<img width="1534" height="783" alt="image" src="https://github.com/user-attachments/assets/c36a0057-cbc8-4551-9412-4346cac9385d" />
+
+<img width="1536" height="782" alt="image" src="https://github.com/user-attachments/assets/59158361-d109-49cb-b4ed-b3c4e2da16fc" />
+
 
 ##### Funcionalidade 6 - Listagem e Acompanhamento de Tarefas (Funcionário)
 
