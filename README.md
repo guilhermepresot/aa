@@ -357,10 +357,8 @@ Esta seção apresenta os módulos e APIs utilizados na solução.
 
 **Frameworks e bibliotecas:**
 
-- Bootstrap 5 — framework CSS/JS utilizado para estilização, componentes de interface (modais, navbar) e responsividade
-- Bootstrap Icons — biblioteca de ícones utilizada na interface
-- Popper.js — biblioteca utilizada pelo Bootstrap para posicionamento de elementos como modais e dropdowns
-- jQuery — biblioteca utilizada em conjunto com componentes do Bootstrap
+- Bootstrap 5 (+ Bootstrap Icons e Popper.js) — framework CSS/JS para estilização, componentes de interface e responsividade
+- jQuery — biblioteca utilizada em conjunto com os componentes do Bootstrap
 
 **Images:**
 
