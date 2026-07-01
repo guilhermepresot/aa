@@ -158,7 +158,7 @@ Permite que a diretora visualize todas as queixas registradas pelos alunos, acom
 - **Instruções de acesso:**
   - Efetue login como diretora
   - Acesse o Dashboard
-  - Visualize a lista de queixas e clique em uma delas para ver os detalhes
+  - Visualize o controle de tarefas resolvidas e não resolvidas, gasto mensal e locais mais reportados
 - **Tela da funcionalidade:**
 
 <img width="1513" height="780" alt="image" src="https://github.com/user-attachments/assets/597d1ae0-585a-488d-9e29-10a7ec7e083c" />
@@ -220,7 +220,9 @@ Permite que o funcionário visualize as tarefas atribuídas a ele, com detalhes 
   - Visualize a listagem de tarefas e clique em uma tarefa para ver os detalhes
 - **Tela da funcionalidade:**
 
-![Tela de Listagem de Tarefas](images/listagem-tarefas.png)
+<img width="1536" height="779" alt="image" src="https://github.com/user-attachments/assets/ac8e5900-e346-4e65-97de-8702f1981978" />
+
+<img width="1536" height="782" alt="image" src="https://github.com/user-attachments/assets/c685376b-ded7-436d-86e4-b24d9ae10836" />
 
 ##### Funcionalidade 7 - Visualização de Métricas e Orçamentos (Diretora)
 
@@ -256,7 +258,7 @@ Permite que a diretora visualize indicadores gerais (incidentes, tarefas resolvi
   - Visualize os indicadores ou cadastre um novo gasto referente a uma queixa
 - **Tela da funcionalidade:**
 
-![Tela de Métricas](images/metricas.png)
+<img width="1520" height="777" alt="image" src="https://github.com/user-attachments/assets/82b61ae9-6374-4e99-9447-f90c94ee5023" />
 
 ## Estruturas de Dados
 
